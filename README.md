@@ -83,7 +83,9 @@ Jenkins CLI Client file: jenkins-cli.jar<br>
 
 ### Регистрация переменных среды Windows. Логин и Токен.<br>
 \$env:JENKINS_USER_ID="myserviceuser"<br>
-\$env:JENKINS_API_TOKEN="1160cc424290ef477696b1d0a41a90a9d3"
+\$env:JENKINS_API_TOKEN="1160cc424290ef477696b1d0a41a90a9d3"<br>
+<br>
+java -jar .\jenkins-cli.jar -s http://18.197.145.215:8080 who-am-i<br>
 
 
 
