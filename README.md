@@ -32,7 +32,17 @@ jenkins.war - имя файла рабочей версии<br>
 IPaddress:8080/restart<br>
 \$ sudo service jenkins restart <br>
 
-## 4. Jenkins - Управление Plugins
+# 4. Jenkins - Управление Plugins
 Plugin Manager в GIU.<br>
 ![Plugins на сайте plugins.jenkins.io](https://plugins.jenkins.io/)<br>
+
+# 5. Jenkins - Простейшие Jobs включая Deployment
+## Создание простейших Jenkins Jobs<br>
+## Директории Jobs и Build на Jenkins Server<br>
+## АвтоУдаление старых Build-ов<br>
+## Простейший пример доставки Artifact на удаленный сервер<br>
+![BuildShellCommand](https://github.com/zuFrost/Jenkins/blob/master/BuildShellCommand)<br>
+![TestShellCommand](https://github.com/zuFrost/Jenkins/blob/master/TestShellCommand)<br>
+Deploy with Plugin 
+![Publish Over SSH](https://plugins.jenkins.io/publish-over-ssh/)<br>
 
