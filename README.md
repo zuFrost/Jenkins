@@ -18,6 +18,16 @@ install Java first <br>
 \$ sudo service jenkins stop <br>
 Запускаем jenkins <br>
 \$ sudo service jenkins stop <br>
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword <br>
+# 3. Jenkins - Администрирование Jenkins
+## Обновление Jenkins<br>
+## Возврат на предыдущую версию Jenkins<br>
+/usr/share/jenkins/ - место для копирования новых версий. предварительно сделать резервную копию старой версии<br>
+jenkins.war - имя файла рабочей версии<br>
+подменяя файл, jenkins.war, делаем активной ту версию, которая нам нужна.<br>
+<br>
+перезагрузка сервера<br>
+IPaddress:8080/restart<br>
+\$ sudo service jenkins restart <br>
 
 
-$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
