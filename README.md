@@ -74,4 +74,6 @@ Jenkins CLI Client file: jenkins-cli.jar<br>
 Переменные среды Linux. Логин и Токен.<br>
 export JENKINS_USER_ID=myserviceuser<br>
 export JENKINS_API_TOKEN=1160cc424290ef477696b1d0a41a90a9d3<br>
+Просмотр переменных среды<br>
+\$ env | grep JENKINS<br>
 
