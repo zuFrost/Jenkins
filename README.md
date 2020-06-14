@@ -64,3 +64,11 @@ Deploy with Plugin
 
 # 7. Jenkins - Удалённое и локальное управление через Jenkins CLI Client
 CLI - Command Line Interface<br>
+&#160; &#9679; Позволяет управлять Jenkins из коммандной строки<br>
+&#160; &#9679; Позволяет писать скрипты для Jenkins<br>
+&#160; &#9679; Позволяет управлять Локально из командной строки самого Jenkins сервера<br>
+&#160; &#9679; Позволяет управлять Удаленно из командной строки вашего компьютера<br>
+Jenkins CLI Client file: jenkins-cli.jar<br>
+скачать с вашего же Jenkins сервера {$JENKINS_URL}/jnlpJars/jenkins-cli.jar<br>
+\$ java -jar jenkins-cli.jar -auth username:password -s http://localhost:8080 who-am-i<br>
+
