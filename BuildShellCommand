@@ -1,0 +1,15 @@
+echo "--------------------Build Startet--------------------"
+
+cat <<EOF > index.html
+<html>
+<body bgcolor=white>
+<center>
+<h2> <font color=yellow>Hello from zuFrost</font><h2>
+
+<font color=magenta>www.zufrost.com</font>
+
+</center>
+</body>
+</html>
+EOF
+echo "--------------------Build Finished--------------------"
