@@ -1,4 +1,5 @@
 # 1. Jenkins - Автоматизация CI/CD
+
 # 2. Jenkins - Установка на Linux Ubuntu
 ![Debian/Ubuntu install manual from jenkins.io](https://www.jenkins.io/doc/book/installing/#debianubuntu) <br>
  <br>
@@ -19,6 +20,7 @@ install Java first <br>
 Запускаем jenkins <br>
 \$ sudo service jenkins stop <br>
 $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword <br>
+
 # 3. Jenkins - Администрирование Jenkins
 ## Обновление Jenkins<br>
 ## Возврат на предыдущую версию Jenkins<br>
@@ -30,4 +32,7 @@ jenkins.war - имя файла рабочей версии<br>
 IPaddress:8080/restart<br>
 \$ sudo service jenkins restart <br>
 
+## 4. Jenkins - Управление Plugins
+Plugin Manager в GIU.<br>
+![Plugins на сайте plugins.jenkins.io](https://plugins.jenkins.io/)<br>
 
