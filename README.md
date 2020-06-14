@@ -46,3 +46,11 @@ Plugin Manager в GIU.<br>
 Deploy with Plugin 
 ![Publish Over SSH](https://plugins.jenkins.io/publish-over-ssh/)<br>
 
+# 6. Jenkins - Добавление Slave/Node
+## &#9679;Снизить нагрузку с Jenkins Master
+## &#9679;Больше одновременных Build'ов
+## &#9679;Build разных платформ на разных сереверах
+### &#160; &#9679;Node1 - для .Net
+### &#160; &#9679;Node2 - для JAVA
+### &#160; &#9679;Node3 - для Ansible
+### &#160; &#9679;Node4 - для Chef
