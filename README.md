@@ -72,17 +72,18 @@ Jenkins CLI Client file: jenkins-cli.jar<br>
 скачать с вашего же Jenkins сервера {$JENKINS_URL}/jnlpJars/jenkins-cli.jar<br>
 \$ java -jar jenkins-cli.jar -auth username:password -s http://localhost:8080 who-am-i<br>
 
-Регистрация переменных среды Linux. Логин и Токен.<br>
+### Регистрация переменных среды Linux. Логин и Токен.<br>
 \$ export JENKINS_USER_ID=myserviceuser<br>
 \$ export JENKINS_API_TOKEN=1160cc424290ef477696b1d0a41a90a9d3<br>
 Просмотр переменных среды<br>
 
-Регистрация переменных среды Windows. Логин и Токен.<br>
-\$env:JENKINS_USER_ID="myserviceuser"<br>
-\$env:JENKINS_API_TOKEN="1160cc424290ef477696b1d0a41a90a9d3"
-
 \$ env | grep JENKINS<br>
 После регистрации переменных среды, комманда выглядит следующим образом:<br>
 \$ java -jar jenkins-cli.jar -s http://localhost:8080 who-am-i<br>
+
+### Регистрация переменных среды Windows. Логин и Токен.<br>
+\$env:JENKINS_USER_ID="myserviceuser"<br>
+\$env:JENKINS_API_TOKEN="1160cc424290ef477696b1d0a41a90a9d3"
+
 
 
