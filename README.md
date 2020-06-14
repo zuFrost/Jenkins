@@ -76,4 +76,6 @@ export JENKINS_USER_ID=myserviceuser<br>
 export JENKINS_API_TOKEN=1160cc424290ef477696b1d0a41a90a9d3<br>
 Просмотр переменных среды<br>
 \$ env | grep JENKINS<br>
+После регистрации переменных среды, комманда выглядит следующим образом:<br>
+\$ java -jar jenkins-cli.jar -s http://localhost:8080 who-am-i<br>
 
