@@ -54,3 +54,7 @@ Deploy with Plugin
 ### &#160; &#9679;Node2 - для JAVA
 ### &#160; &#9679;Node3 - для Ansible
 ### &#160; &#9679;Node4 - для Chef
+установка Java 8 на Ubuntu на Slave машинах<br>
+\$ sudo apt-get update<br>
+\$ sudo apt install openjdk-8-jdk<br>
+\$ java -version<br>
