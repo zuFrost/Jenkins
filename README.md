@@ -58,3 +58,9 @@ Deploy with Plugin
 \$ sudo apt-get update<br>
 \$ sudo apt install openjdk-8-jdk<br>
 \$ java -version<br>
+2 Plugins for adding Slave Servers to Jenkins:<br>
+&#160; &#9679; ![SSH Agent](https://plugins.jenkins.io/ssh-agent/)<br>
+&#160; &#9679; ![SSH Slaves renamed to SSH Build Agents](https://plugins.jenkins.io/ssh-slaves/)<br>
+
+# 7. Jenkins - Удалённое и локальное управление через Jenkins CLI Client
+CLI - Command Line Interface<br>
