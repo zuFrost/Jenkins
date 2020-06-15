@@ -86,6 +86,12 @@ Jenkins CLI Client file: jenkins-cli.jar<br>
 \$env:JENKINS_API_TOKEN="1160cc424290ef477696b1d0a41a90a9d3"<br>
 <br>
 java -jar .\jenkins-cli.jar -s http://18.197.145.215:8080 who-am-i<br>
+&#160; &#9679; команда get-job	позволяет скачать параметры указанного Job в XML формате.<br>
+\$ java -jar jenkins-cli.jar -s http://localhost:8080 get-job MyJob-20200614 > myjob.xml <br>
+&#160; &#9679; команда create-job	позволяет создать Job из XML<br>
+\$ java -jar jenkins-cli.jar -s http://localhost:8080 create-job MyJob-20200616-fromCLI < myjob.xml<br>
+
+
 
 
 
