@@ -109,6 +109,8 @@ curl http://login:11e4e06f5072dfb0c51353cf8027c7f25c@52.59.192.101:8080/job/Buil
 # 10. Jenkins - Автоматизация запуска Build из GitHub - Jenkins trigger from GitHub, Jenkins webhook
 GitHub hook trigger for GITScm pooling (GitHub Plugin)<br>
 ![GitHub plugin](https://plugins.jenkins.io/github/)<br>
+and in GitHub add Webhook. Payload URL = http://18.156.171.122:8080/github-webhook/<br>
+Content type change to Application/Json<br>
 
 
 
