@@ -112,6 +112,9 @@ GitHub hook trigger for GITScm pooling (GitHub Plugin)<br>
 and in GitHub add Webhook. Payload URL = http://18.156.171.122:8080/github-webhook/<br>
 Content type change to Application/Json<br>
 
+# 11. Jenkins - Build с Параметрами
+Put V to "This project is parameterized"
+
 
 
 
