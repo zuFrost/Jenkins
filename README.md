@@ -106,6 +106,8 @@ curl http://login:11e4e06f5072dfb0c51353cf8027c7f25c@52.59.192.101:8080/job/Buil
 ### &#160; &#9679; Poll SCM
 ### &#160; &#9679; Triggers from installed Plugins
 
+# 10. Jenkins - Автоматизация запуска Build из GitHub - Jenkins trigger from GitHub, Jenkins webhook
+
 
 
 
