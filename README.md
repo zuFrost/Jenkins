@@ -97,6 +97,10 @@ java -jar .\jenkins-cli.jar -s http://18.197.145.215:8080 who-am-i<br>
 # 9. Jenkins - Автоматизация запуска Build Job - Jenkins Build Triggers
 ## Jenkins Job Triggers
 ### &#160; &#9679; Trigger builds remotely (e.g., from scripts)
+from browser line
+http://52.59.192.101:8080/job/Build-AutoTrigger-1/build?token=asdarggADRGREGwserrgeqwar3432134j43kg23ug4i<br>
+from command line and Authentification via Token
+curl http://login:11e4e06f5072dfb0c51353cf8027c7f25c@52.59.192.101:8080/job/Build-AutoTrigger-1/build?token=asdarggADRGREGwserrgeqwar3432134j43kg23ug4i<br>
 ### &#160; &#9679; Build after other projects are built
 ### &#160; &#9679; Build periodicaly
 ### &#160; &#9679; Poll SCM
