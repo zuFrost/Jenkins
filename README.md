@@ -94,6 +94,13 @@ java -jar .\jenkins-cli.jar -s http://18.197.145.215:8080 who-am-i<br>
 # 8. Jenkins - Deployment from GitHub
 используй ssh!<br>
 
+# 9. Jenkins - Автоматизация запуска Build Job - Jenkins Build Triggers
+## Jenkins Job Triggers
+### &#160; &#9679; Trigger builds remotely (e.g., from scripts)
+### &#160; &#9679; Build after other projects are built
+### &#160; &#9679; Build periodicaly
+### &#160; &#9679; Poll SCM
+### &#160; &#9679; Triggers from installed Plugins
 
 
 
